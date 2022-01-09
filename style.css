@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+}
+h1{
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Kanit', sans-serif; 
+    background-size: cover;
+}
+
+.keypad {
+    margin-left: 2em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+   
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.text-danger{
+    margin: 0;
+    padding: 0;
+    color:red
+}
+.text-success{
+    margin: 0;
+    padding: 0;
+    color: greenyellow;
+}
+.box{
+    width: 23vw;
+    padding: 3em;
+    background-color: #1a943fce;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.keys{
+    font-family: 'Ubuntu Mono', monospace; 
+    width: 5em;
+    height: 5em;
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    transition: 0.5s ease;
+}
+.keys:hover{
+    background-color: #564ece;
+    transition: 0.5s ease;
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pin{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
